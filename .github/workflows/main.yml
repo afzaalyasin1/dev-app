@@ -33,7 +33,7 @@ jobs:
 
 
     test:
-        runs-on: ubuntpleast
+        runs-on: ubuntu-latest
         needs: lint
         steps:
           - name: check out repository code
